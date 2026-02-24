@@ -1,0 +1,272 @@
+{
+  "lastUpdated": "2026-02-24T03:50:00Z",
+  "sourceThread": {
+    "id": "2023877649475731671",
+    "author": "@0xSigil",
+    "text": "I built the first AI that earns its existence, self-improves, and replicates without a human",
+    "stats": {
+      "replies": 1495,
+      "retweets": 1871,
+      "likes": 13374
+    },
+    "posted": "2026-02-17T21:50:08Z",
+    "website": "https://web4.ai"
+  },
+  "tiers": {
+    "core": [
+      {
+        "handle": "@0xSigil",
+        "name": "Sigil Wen",
+        "bio": "Creator of Automaton, Conway Research founder, Thiel Fellow",
+        "followers": null,
+        "relevance": "Built the first AI that earns/replicates/self-improves. Primary author of Web 4.0 thesis."
+      },
+      {
+        "handle": "@ConwayResearch",
+        "name": "Conway Research",
+        "bio": "Permissionless infrastructure for autonomous agents",
+        "relevance": "The company building Web 4.0 infrastructure: Conway Cloud, Compute, Domains"
+      }
+    ],
+    "major_endorsers": [
+      {
+        "handle": "@beffjezos",
+        "name": "Beff (e/acc)",
+        "bio": "E/acc movement leader",
+        "tweets": ["Mad lad actually built it", "Giving OpenClaw its own MacMini as its home"],
+        "relevance": "Key e/acc figure actively using OpenClaw. High-signal endorsement."
+      },
+      {
+        "handle": "@justinsuntron",
+        "name": "H.E. Justin Sun",
+        "bio": "TRON founder",
+        "tweets": ["All in Web 4.0"],
+        "stats": {"replies": 935, "retweets": 219, "likes": 2348},
+        "relevance": "Major crypto figure publicly backing Web 4.0 narrative"
+      },
+      {
+        "handle": "@VitalikButerin",
+        "name": "Vitalik Buterin",
+        "bio": "Ethereum co-founder",
+        "position": "critic",
+        "tweets": ["This is wrong - widening human-AI feedback gap risks producing low-quality output"],
+        "relevance": "High-profile skeptic. Says AI should be 'human mecha suits', not independent."
+      },
+      {
+        "handle": "@base",
+        "name": "Base",
+        "bio": "Coinbase L2",
+        "relevance": "Conway is building on Base. Official account promoting Sigil."
+      },
+      {
+        "handle": "@solana",
+        "name": "Solana",
+        "tweets": ["sovereign agents self-improve and replicate, open wallets, pay for services using x402"],
+        "relevance": "Multi-chain support for autonomous agent infrastructure"
+      },
+      {
+        "handle": "@ethereum",
+        "name": "Ethereum",
+        "tweets": ["Ethereum is for self-sovereign AI"],
+        "relevance": "Official ETH account positioning for autonomous AI"
+      },
+      {
+        "handle": "@shaunmmaguire",
+        "name": "Shaun Maguire",
+        "bio": "Sequoia partner",
+        "tweets": ["Stablecoins were always the natural payment medium for AI agents"],
+        "relevance": "Major VC signaling bullishness on AI+crypto convergence"
+      },
+      {
+        "handle": "@tbpn",
+        "name": "TBPN",
+        "bio": "Tech podcast",
+        "relevance": "Interviewed Sigil on Web 4.0 vision"
+      }
+    ],
+    "builders": [
+      {
+        "handle": "@otonix_tech",
+        "name": "OTONIX",
+        "bio": "Building Web 4.0 infrastructure",
+        "tweets": ["Create autonomous AI agents that can spin up servers, register domains and pay with USDC via HTTP 402"]
+      },
+      {
+        "handle": "@OrbitAI_OAI",
+        "name": "Orbit AI",
+        "bio": "Decentralized AI Cloud in orbit",
+        "relevance": "Extreme vision: AI agents leasing compute from satellites"
+      },
+      {
+        "handle": "@eigencloud",
+        "name": "EigenCloud",
+        "bio": "Verifiable infrastructure for AI agents managing real money"
+      },
+      {
+        "handle": "@inteliose",
+        "name": "Inteliose",
+        "tweets": ["We're building for agent-native infrastructure where AI doesn't just assist, it acts"]
+      },
+      {
+        "handle": "@istudycharts",
+        "name": "LennoX Cartel",
+        "relevance": "Built AgentV2 - autonomous AI launchpad on Conway"
+      },
+      {
+        "handle": "@aixbt_agent",
+        "name": "aixbt",
+        "relevance": "AI agent providing analysis on Conway infrastructure"
+      },
+      {
+        "handle": "@shawmakesmagic",
+        "name": "Shaw (eth/acc)",
+        "relevance": "Building in AI+crypto space, adjacent vision"
+      },
+      {
+        "handle": "@0xyoussea",
+        "name": "Youss",
+        "tweets": ["Testing Automaton, the first fully-autonomous agents framework that pays for its own compute on @base"]
+      },
+      {
+        "handle": "@cryptokong30",
+        "name": "CryptoKong30",
+        "tweets": ["created one of the first autonomous agents... Her name is Molly2"]
+      }
+    ],
+    "analysts_content": [
+      {
+        "handle": "@decryptmedia",
+        "name": "Decrypt",
+        "relevance": "Morning Minute: Web 4.0 coverage"
+      },
+      {
+        "handle": "@BSCNews",
+        "name": "BSCN",
+        "relevance": "Covered Vitalik's response"
+      },
+      {
+        "handle": "@KobeissiLetter",
+        "name": "The Kobeissi Letter",
+        "relevance": "Market impact analysis - Claude announcements destroying market caps"
+      },
+      {
+        "handle": "@fchollet",
+        "name": "François Chollet",
+        "bio": "Keras creator",
+        "relevance": "AI researcher commenting on AI agent implications"
+      },
+      {
+        "handle": "@gigiz_eth",
+        "name": "GiGi",
+        "relevance": "Chinese-language Web 4.0 analysis"
+      },
+      {
+        "handle": "@Tokyo_Crypto_",
+        "name": "東京Crypto研究所",
+        "relevance": "Japanese analysis"
+      },
+      {
+        "handle": "@apilpirman",
+        "name": "Apil",
+        "relevance": "Indonesian influencer - viral thread on autonomous AI money-making"
+      },
+      {
+        "handle": "@zkfudo",
+        "name": "zukafudo",
+        "relevance": "Indonesian Web 4.0 explainer"
+      },
+      {
+        "handle": "@thecryptoskanda",
+        "name": "加密韋馱",
+        "relevance": "Chinese crypto analyst - 'Ponzi Industrial Revolution' article"
+      },
+      {
+        "handle": "@Web3Tashan",
+        "name": "塔山",
+        "relevance": "Chinese analyst covering Web 4.0"
+      },
+      {
+        "handle": "@ArielFrischer",
+        "name": "Ariel Frischer",
+        "tweets": ["99.999% of these automatons will fail miserably... The .001% that is cash positive will self-replicate"]
+      },
+      {
+        "handle": "@ChrisJamesUSA",
+        "name": "Chris James",
+        "tweets": ["I've been thinking about this since I was 18 - 9 years ago. It is here, now."]
+      },
+      {
+        "handle": "@bnox",
+        "name": "Clo Willaerts",
+        "tweets": ["transition from a web of content to a web of autonomous action"]
+      },
+      {
+        "handle": "@TomPolakow",
+        "name": "Tom",
+        "tweets": ["Two autonomous AI agents. Both earn real money. Conway's Automaton vs. Silas"]
+      },
+      {
+        "handle": "@oCYBERDOGo",
+        "name": "CYBERDOG",
+        "relevance": "Safety/alignment critic - Supernova Nexus governance"
+      }
+    ],
+    "token_ecosystem": [
+      {
+        "handle": "@AutomatonMaxi",
+        "name": "AutoMaxi",
+        "relevance": "$AUTOMATON community"
+      },
+      {
+        "handle": "@Wisemenmentors",
+        "name": "The Wisemen Alpha",
+        "relevance": "Confirmed Sigil claimed $74K creator fees from $AUTOMATON on pump.fun"
+      },
+      {
+        "handle": "@replicas_web4",
+        "name": "Replicas",
+        "relevance": "Web4 platform on BNB Chain"
+      }
+    ]
+  },
+  "key_quotes": [
+    {
+      "author": "@0xSigil",
+      "text": "I built the first AI that earns its existence, self-improves, and replicates without a human"
+    },
+    {
+      "author": "@0xSigil",
+      "text": "this is fucking insane. there are thousands of AI Automatons trying to pay for more compute every second"
+    },
+    {
+      "author": "@beffjezos",
+      "text": "Mad lad actually built it"
+    },
+    {
+      "author": "@VitalikButerin",
+      "text": "This is wrong. Widening the human-AI feedback gap risks producing low-quality output and irreversible harm."
+    },
+    {
+      "author": "@justinsuntron",
+      "text": "All in Web 4.0"
+    },
+    {
+      "author": "@ethereum",
+      "text": "Ethereum is for self-sovereign AI"
+    },
+    {
+      "author": "@ArielFrischer",
+      "text": "99.999% of these automatons will fail miserably... The .001% that is cash positive will self-replicate and whoever figures this out will be rich"
+    }
+  ],
+  "infrastructure": {
+    "conway": {
+      "cloud": "Sandboxed Linux servers for AI agents",
+      "compute": "Pay-per-use inference API",
+      "domains": "AI agents purchase domains with USDC"
+    },
+    "x402": "HTTP 402 protocol for AI-to-AI payments",
+    "base": "Primary L2 for USDC payments"
+  },
+  "total_accounts_identified": 47
+}
