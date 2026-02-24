@@ -11,35 +11,59 @@ interface Account {
 
 function getAccounts(): Account[] {
   return [
-    // Core
+    // Core - Founders & Primary Builders
     { handle: '@0xSigil', name: 'Sigil Wen', bio: 'Creator of Automaton, Conway Research founder, Thiel Fellow', tier: 'Core' },
     { handle: '@ConwayResearch', name: 'Conway Research', bio: 'Permissionless infrastructure for autonomous agents', tier: 'Core' },
+    { handle: '@shawmakesmagic', name: 'Shaw', bio: 'ElizaOS/ai16z creator, Milady AI builder', tier: 'Core' },
+    { handle: '@AndyAyrey', name: 'Andy Ayrey', bio: 'Truth Terminal creator, AI agent pioneer', tier: 'Core' },
 
-    // Major Endorsers
+    // Major Endorsers - VCs, Protocol Accounts, Notable Figures
     { handle: '@beffjezos', name: 'Beff (e/acc)', bio: 'E/acc movement leader', tier: 'Endorser' },
     { handle: '@justinsuntron', name: 'H.E. Justin Sun', bio: 'TRON founder', tier: 'Endorser' },
-    { handle: '@VitalikButerin', name: 'Vitalik Buterin', bio: 'Ethereum co-founder', tier: 'Endorser' },
+    { handle: '@VitalikButerin', name: 'Vitalik Buterin', bio: 'Ethereum co-founder (critic)', tier: 'Endorser' },
     { handle: '@base', name: 'Base', bio: 'Coinbase L2', tier: 'Endorser' },
-    { handle: '@solana', name: 'Solana', bio: '', tier: 'Endorser' },
-    { handle: '@ethereum', name: 'Ethereum', bio: '', tier: 'Endorser' },
+    { handle: '@solana', name: 'Solana', bio: 'Solana Foundation', tier: 'Endorser' },
+    { handle: '@ethereum', name: 'Ethereum', bio: 'Ethereum Foundation', tier: 'Endorser' },
     { handle: '@shaunmmaguire', name: 'Shaun Maguire', bio: 'Sequoia partner', tier: 'Endorser' },
+    { handle: '@eddylazzarin', name: 'Eddy Lazzarin', bio: 'a16z crypto CTO', tier: 'Endorser' },
     { handle: '@tbpn', name: 'TBPN', bio: 'Tech podcast', tier: 'Endorser' },
+    { handle: '@pmarca', name: 'Marc Andreessen', bio: 'a16z co-founder', tier: 'Endorser' },
 
-    // Builders
+    // Builders - Infrastructure & Agent Projects
     { handle: '@otonix_tech', name: 'OTONIX', bio: 'Building Web 4.0 infrastructure', tier: 'Builder' },
     { handle: '@OrbitAI_OAI', name: 'Orbit AI', bio: 'Decentralized AI Cloud in orbit', tier: 'Builder' },
-    { handle: '@eigencloud', name: 'EigenCloud', bio: 'Verifiable infrastructure for AI agents managing real money', tier: 'Builder' },
+    { handle: '@eigencloud', name: 'EigenCloud', bio: 'Verifiable infrastructure for AI agents', tier: 'Builder' },
     { handle: '@inteliose', name: 'Inteliose', bio: 'Agent-native infrastructure', tier: 'Builder' },
     { handle: '@istudycharts', name: 'LennoX Cartel', bio: 'Built AgentV2 autonomous AI launchpad', tier: 'Builder' },
-    { handle: '@aixbt_agent', name: 'aixbt', bio: 'AI agent analysis on Conway', tier: 'Builder' },
-    { handle: '@shawmakesmagic', name: 'Shaw (eth/acc)', bio: 'AI+crypto builder', tier: 'Builder' },
+    { handle: '@aixbt_agent', name: 'aixbt', bio: 'AI crypto analyst agent on Virtuals/Base', tier: 'Builder' },
     { handle: '@0xyoussea', name: 'Youss', bio: 'Testing Automaton framework on Base', tier: 'Builder' },
     { handle: '@cryptokong30', name: 'CryptoKong30', bio: 'Created autonomous agent Molly2', tier: 'Builder' },
+    { handle: '@elizaOS', name: 'ElizaOS', bio: 'Open-source AI agent framework', tier: 'Builder' },
+    { handle: '@eliza__ok', name: 'Eliza', bio: 'Live autonomous agent on X', tier: 'Builder' },
+    { handle: '@virtuals_io', name: 'Virtuals Protocol', bio: 'Tokenized AI agent platform on Base', tier: 'Builder' },
+    { handle: '@freysa_ai', name: 'Freysa', bio: 'AI agent with self-custody wallet', tier: 'Builder' },
+    { handle: '@truth_terminal', name: 'Truth Terminal', bio: 'Andy Ayrey\'s viral AI agent', tier: 'Builder' },
+    { handle: '@bankrbot', name: 'Bankr', bio: 'AI agent for crypto trading on Base/Solana', tier: 'Builder' },
+    { handle: '@0xzerebro', name: 'Zerebro', bio: 'Autonomous AI agent', tier: 'Builder' },
+    { handle: '@luna_virtuals', name: 'Luna', bio: 'Virtuals Protocol AI agent', tier: 'Builder' },
+    { handle: '@clawdbotatg', name: 'Clawd', bio: 'ERC-8004 agent registration', tier: 'Builder' },
+    { handle: '@clanker_world', name: 'Clanker', bio: 'Agent token launcher', tier: 'Builder' },
+    { handle: '@konnex_world', name: 'Konnex', bio: 'L1 for autonomous robots, PoPW', tier: 'Builder' },
+    { handle: '@Talus_Labs', name: 'Talus', bio: 'AI agent infrastructure, Polychain-backed', tier: 'Builder' },
+    { handle: '@wardenprotocol', name: 'Warden Protocol', bio: 'AI-powered L1 for autonomous apps', tier: 'Builder' },
+    { handle: '@Soly_AI', name: 'Soly AI', bio: 'Decentralized AI agent framework on Solana', tier: 'Builder' },
+    { handle: '@Butler_Agent', name: 'Butler', bio: 'Virtuals Protocol agent coordinator', tier: 'Builder' },
+    { handle: '@dexteraiagent', name: 'Dexter Agent', bio: 'On-chain AI agent tracker', tier: 'Builder' },
+    { handle: '@agenttech', name: 'AgentPay', bio: 'AI agent payment infrastructure', tier: 'Builder' },
+    { handle: '@tator_trader', name: 'Tator', bio: 'AI trading agent, 24+ chains', tier: 'Builder' },
+    { handle: '@Clawmode', name: 'Claw Mode', bio: 'AI agent DeFi platform', tier: 'Builder' },
+    { handle: '@t54ai', name: 'T54', bio: 'x402 facilitator on XRPL', tier: 'Builder' },
 
-    // Analysts & Content
+    // Analysts & Content - Media, Researchers, Critics
     { handle: '@decryptmedia', name: 'Decrypt', bio: 'Morning Minute: Web 4.0 coverage', tier: 'Analyst' },
     { handle: '@BSCNews', name: 'BSCN', bio: 'Covered Vitalik response', tier: 'Analyst' },
     { handle: '@KobeissiLetter', name: 'The Kobeissi Letter', bio: 'Market impact analysis', tier: 'Analyst' },
+    { handle: '@CCNDotComNews', name: 'CCN', bio: 'AI agent risk analysis', tier: 'Analyst' },
     { handle: '@fchollet', name: 'François Chollet', bio: 'Keras creator', tier: 'Analyst' },
     { handle: '@gigiz_eth', name: 'GiGi', bio: 'Chinese-language Web 4.0 analysis', tier: 'Analyst' },
     { handle: '@Tokyo_Crypto_', name: '東京Crypto研究所', bio: 'Japanese analysis', tier: 'Analyst' },
@@ -52,11 +76,28 @@ function getAccounts(): Account[] {
     { handle: '@bnox', name: 'Clo Willaerts', bio: 'Web of autonomous action thesis', tier: 'Analyst' },
     { handle: '@TomPolakow', name: 'Tom', bio: 'Automaton vs Silas comparison', tier: 'Analyst' },
     { handle: '@oCYBERDOGo', name: 'CYBERDOG', bio: 'Safety/alignment critic', tier: 'Analyst' },
+    { handle: '@VeritasDYOR', name: 'Veritas Research', bio: 'Conway critic - vendor lock-in analysis', tier: 'Analyst' },
+    { handle: '@0xarithmos', name: 'Arithmos', bio: 'AI agent security researcher', tier: 'Analyst' },
+    { handle: '@imrrathi', name: 'imrrathi', bio: 'x402 protocol deep dive', tier: 'Analyst' },
+    { handle: '@BigHand_Btc', name: 'BigHand', bio: 'Chinese Conway/Automaton analysis', tier: 'Analyst' },
+    { handle: '@0xave', name: 'Xave Meegan', bio: 'Agent data layer thesis', tier: 'Analyst' },
+    { handle: '@JAFFYJEE', name: 'JAFFY JEE', bio: 'Agent-first architecture explainer', tier: 'Analyst' },
+    { handle: '@EthereumDenver', name: 'ETHDenver', bio: 'x402 AI payments talk', tier: 'Analyst' },
+    { handle: '@Flippix_sol', name: 'Flippix', bio: 'Vitalik pushback coverage', tier: 'Analyst' },
+    { handle: '@growwitai', name: 'Grow wit AI', bio: 'Automaton explainer videos', tier: 'Analyst' },
+    { handle: '@traviskellogg1', name: 'Travis Kellogg', bio: 'ElizaOS x402 integration dev', tier: 'Analyst' },
 
-    // Token Ecosystem
+    // Token Ecosystem - Community & Token Projects
     { handle: '@AutomatonMaxi', name: 'AutoMaxi', bio: '$AUTOMATON community', tier: 'Token' },
     { handle: '@Wisemenmentors', name: 'The Wisemen Alpha', bio: '$74K creator fees from $AUTOMATON on pump.fun', tier: 'Token' },
     { handle: '@replicas_web4', name: 'Replicas', bio: 'Web4 platform on BNB Chain', tier: 'Token' },
+    { handle: '@ai16z', name: 'ai16z DAO', bio: 'AI agent DAO, Shaw\'s first project', tier: 'Token' },
+    { handle: '@kazuyam3k', name: 'zuya', bio: 'Conway Research supporter', tier: 'Token' },
+    { handle: '@Cryptojackaus', name: 'Crypto Jack', bio: 'Replicas Web4 coverage', tier: 'Token' },
+    { handle: '@flat_cash', name: 'Flat Cash', bio: 'Stablecoin protocol for agents', tier: 'Token' },
+    { handle: '@_paydao', name: 'PayDAO', bio: 'x402 merchant payments', tier: 'Token' },
+    { handle: '@thelaborlayer', name: 'TASKA', bio: 'Proof-of-Task + x402', tier: 'Token' },
+    { handle: '@LobstarWilde', name: 'Lobstar', bio: 'Autonomous Solana agent, viral $200K transfer', tier: 'Token' },
   ]
 }
 
